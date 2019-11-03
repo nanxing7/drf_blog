@@ -1,0 +1,6 @@
+{% load staticfiles %}
+{% for e in e_list %}
+    <p>id:{{ e.id }}</p>
+    <p>title:{{ e.name }}</p>
+    <p>content:{{ e.content }}</p>
+{% endfor %}
